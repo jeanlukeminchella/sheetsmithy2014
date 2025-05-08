@@ -1,0 +1,6 @@
+{
+    "title": "Dart",
+    "damage": "d4",
+    "rang": 20,
+    "addModToDamage": true
+}

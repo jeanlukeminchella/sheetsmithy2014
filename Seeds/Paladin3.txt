@@ -1,0 +1,30 @@
+{
+    "level": 3,
+    "classAsString": "Paladin",
+    "tashaContent": true,
+    "race": "halfElf",
+    "backgroundAsString":"Acolyte",
+    "choices": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "showScores": true
+}

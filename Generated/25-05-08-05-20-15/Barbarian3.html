@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+<title>Barbarian (Wild Magic)</title>
+<style type='text/css'>
+
+html {padding: 0; margin: 0;}
+
+body {
+	background-color: #fff;
+	color: #000;
+	margin: 0; padding: 0;
+	font: normal 9pt/1.2em calibri, arial, helvetica;
+	xbackground-image:url(bkg.full.png);
+}
+
+.wrp {
+	width: 730px;
+	margin-right:auto; margin-left:auto; margin-top: 5px; margin-bottom: 0;
+	padding: 0;
+	text-align: left;
+	color: #333;
+	position: relative;
+	}
+
+#charsheet01 {
+	position: absolute; width: 729px; height: 964px; margin: 0; padding: 0;
+	text-align: left;
+	background-color: #f2e8da; background-image:url(bkg01.jpg); background-repeat:no-repeat;
+	border: 1px solid #fff;
+	brder-right: 1px solid #fff;
+	xbrder-bottom: 1px solid #fff;
+	xborder-top: 500px solid #c00;
+	font-family: calibri, arial, helvetica;
+}
+
+
+img {width:144px; position: absolute; top: 0px; left: 24px; border: 0;}
+p {text-indent:-10px; padding:0 0 0 10px;width: 100%;}
+
+#topBanner div{text-align:center;width: 210px;}
+
+#labelbackground { position: absolute; top: 83px; left: 25px; font: normal 8pt/1.2em calibri; border-top: 1px solid #b5aea4;}
+#background {position: absolute; top: 67px; left: 25px; font: normal 10pt/1.2em calibri;}
+
+#topRightLabel {position: absolute; top: 117px; left: 25px; font: normal 8pt/1.2em calibri; border-top: 1px solid #b5aea4;}
+#topRightText {position: absolute; top: 101px; left: 25px; font: normal 10pt/1.2em calibri;}
+
+#classlabel {width: 210px; position: absolute; top: 83px; left: 260px; font: normal 8pt/1.2em calibri; border-top: 1px solid #b5aea4;}
+#class  {position: absolute; top: 67px; left: 260px; font: normal 10pt/1.2em calibri;}
+
+#bottomRightLabel {width: 210px; position: absolute; top: 117px; left: 260px; font: normal 8pt/1.2em calibri; border-top: 1px solid #b5aea4;}
+#bottomRightText {position: absolute; top: 101px; left: 260px; font: normal 10pt/1.2em calibri;}
+
+#labelrace {width: 210px; position: absolute; top: 83px; left: 500px; font: normal 8pt/1.2em calibri; border-top: 1px solid #b5aea4;}
+#race  {position: absolute; top: 67px; left: 500px; font: normal 10pt/1.2em calibri;}
+
+#sizeLabel {width: 210px; position: absolute; top: 117px; left: 500px; font: normal 8pt/1.2em calibri; border-top: 1px solid #b5aea4;}
+#size {position: absolute; top: 101px; left: 500px; font: normal 10pt/1.2em calibri;}
+
+#labelSTR {position: absolute; top: 160px; left: 31px; width: 50px; text-align:center; font: bold 10pt/1.2em calibri;}
+#STRmodf {position: absolute; top: 173px; left: 29px; width: 51px; text-align:center; font: bold 18pt/1.2em calibri;}
+#STRscore {position: absolute; top: 199px; left: 30px; width: 51px; text-align:center; color: #666; font: bold 11pt/1.2em calibri;}
+
+#labelDEX {position: absolute; top: 250px; left: 31px; width: 50px; text-align:center; font: bold 10pt/1.2em calibri;}
+#DEXmodf {position: absolute; top: 263px; left: 29px; width: 51px; text-align:center; font: bold 18pt/1.2em calibri;}
+#DEXscore {position: absolute; top: 289px; left: 31px; width: 51px; text-align:center; color: #666; font: bold 12pt/1.2em calibri;}
+
+#labelCON {position: absolute; top: 340px; left: 31px; width: 50px; text-align:center; font: bold 10pt/1.2em calibri;}
+#CONmodf {position: absolute; top: 352px; left: 29px; width: 51px; text-align:center; font: bold 18pt/1.2em calibri;}
+#CONscore {position: absolute; top: 380px; left: 31px; width: 51px; text-align:center; color: #666; font: bold 12pt/1.2em calibri;}
+
+#labelINT {position: absolute; top: 430px; left: 31px; width: 50px; text-align:center; font: bold 10pt/1.2em calibri;}
+#INTmodf {position: absolute; top: 443px; left: 29px; width: 51px; text-align:center; font: bold 18pt/1.2em calibri;}
+#INTscore {position: absolute; top: 469px; left: 31px; width: 51px; text-align:center; color: #666; font: bold 12pt/1.2em calibri;}
+
+#labelWIS {position: absolute; top: 520px; left: 31px; width: 50px; text-align:center; font: bold 10pt/1.2em calibri;}
+#WISmodf {position: absolute; top: 533px; left: 29px; width: 51px; text-align:center; font: bold 18pt/1.2em calibri;}
+#WISscore {position: absolute; top: 559px; left: 31px; width: 51px; text-align:center; color: #666; font: bold 12pt/1.2em calibri;}
+
+#labelCHA {position: absolute; top: 610px; left: 31px; width: 50px; text-align:center; font: bold 10pt/1.2em calibri;}
+#CHAmodf {position: absolute; top: 623px; left: 29px; width: 51px; text-align:center; font: bold 18pt/1.2em calibri;}
+#CHAscore {position: absolute; top: 649px; left: 31px; width: 51px; text-align:center; color: #666; font: bold 12pt/1.2em calibri;}
+
+#labelSavingThrows {width: 130px; position: absolute; top: 220px; left: 107px; text-align:center; font: bold 8pt/1.2em calibri; border-bottom: 2px solid #b5aea4;}
+#savingthrows {width: 180px; position: absolute; padding: 0 0 0 4px; top: 238px; left: 107px; text-align:left; font: normal 8pt/1.3em calibri;}
+#savingthrows em {color: #666;}
+
+#labelSkills {width: 130px; position: absolute; top: 348px; left: 107px; text-align:center; font: bold 8pt/1.2em calibri; border-bottom: 2px solid #999;}
+#skills {width: 130px; position: absolute; padding: 0 0 0 4px; top: 365px; left: 107px; text-align:left; font: normal 8pt/1.4em calibri;}
+#skills em {color: #666;}
+
+#reactions {width: 200px; position: absolute; padding: 0 0 0 4px; top: 697px; left: 30px; text-align:left; font: normal 8pt/1.3em calibri;}
+
+#upperCentralColumn div {width: 50px; position: absolute; padding: 0;  text-align:center; }
+
+#labelArmorClass {top: 108px;  left: 274px;  font: bold 8pt/1.0em calibri;}
+#armorclass {top: 141px; left: 274px;  font: bold 16pt/1.2em calibri;}
+
+#labelHitPoints {top: 108px; left: 339px;  font: bold 8pt/1.2em calibri;}
+#hitpoints { top: 141px; left: 339px;  font: bold 16pt/1.1em calibri;}
+
+#labelSpeed {top: 108px;  left: 414px;  font: bold 8pt/0.8em calibri;}
+#speed {top: 141px; left: 414px;  font: bold 16pt/1.2em calibri;}
+
+#labelattackactions {width: 212px; position: absolute; top: 188px; left: 263px; text-align:center; font: bold 8pt/1.2em calibri; border-bottom: 2px solid #b5aea4;}
+#attackactions {width: 212px; position: absolute; padding: 0; top: 205px; left: 263px; text-align:left; font: normal 8pt/1.1em calibri;}
+
+#attack01 {margin: 7px 0; padding: 0px 0px 0px 5px; border: 3px solid #b8b2ab; background-color: #fff;}
+#attack01 p {width: 95%}
+
+#sectionTitle {width: 212px; margin: 15px 0 4px 0; text-align:center; font: bold 8pt/1.2em calibri; border-bottom: 2px solid #b5aea4;}
+#equipmentreasure {width: 212px; padding: 0; text-align:left; font: normal 8pt/1.1em calibri;}
+
+#labelSpecialAbilities {width: 197px; position: absolute; top: 128px; left: 507px; text-align:center; font: bold 8pt/1.2em calibri; border-bottom: 2px solid #b5aea4;}
+#specialabilities {width: 197px; position: absolute; top: 145px; left: 511px; text-align:left; font: normal 8pt/1.2em calibri;}
+
+#charactername {width:729px; height: 10px; position: absolute; top: 15px; left: 0px; font: normal 28pt/1.0em times, 'times new roman'; font-variant: small-caps; text-align:center;}
+#labelcharactername {position: absolute; top: 120px; left: 0px; font: normal 8pt/1.2em calibri;}
+}
+
+
+	
+--></style><body><div class='wrp'><div id='charsheet01'>
+
+<div id='charactername'></div>
+
+<div id='topBanner'>
+
+<div id='classlabel'>CLASS</div>
+<div id='class'>Barbarian (Wild Magic)</div>
+<div id='size'>Medium</div>
+<div id='sizeLabel'>SIZE</div>
+<div id='labelrace'>RACE</div>
+<div id='race'>Half-Orc</div>
+<div id='labelbackground'>BACKGROUND</div>
+<div id='background'>Outlander</div>
+</div>
+
+<div id='labelSavingThrows'>SAVING&nbsp;THROWS</div>
+<div id='labelSkills'>SKILL CHECKS</div>
+
+<div id='labelSTR'>STR</div><div id='STRmodf'>+3</div><div id='STRscore'>17</div>
+<div id='labelDEX'>DEX</div><div id='DEXmodf'>+2</div><div id='DEXscore'>14</div>
+<div id='labelCON'>CON</div><div id='CONmodf'>+2</div><div id='CONscore'>14</div>
+<div id='labelINT'>INT</div><div id='INTmodf'>+0</div><div id='INTscore'>10</div>
+<div id='labelWIS'>WIS</div><div id='WISmodf'>+0</div><div id='WISscore'>10</div>
+<div id='labelCHA'>CHA</div><div id='CHAmodf'>+0</div><div id='CHAscore'>10</div>
+
+<div id='savingthrows'>
+Strength +5 * <br>
+Dexterity +2 <em> (advantage)</em> <br>
+Constitution +4 * <br>
+Intelligence  <br>
+Wisdom  <br>
+Charisma  <br>
+</div>
+
+<div id='skills'>
+Acrobatics +2 <br>
+Animal Handling +2 * <br>
+Arcana  <br>
+Athletics +5 * <br>
+Deception  <br>
+History  <br>
+Insight  <br>
+Intimidation +2 * <br>
+Investigation  <br>
+Medicine  <br>
+Nature  <br>
+Perception +2 * <br>
+Performance  <br>
+Persuasion  <br>
+Religion  <br>
+Sleight of Hand +2 <br>
+Stealth +2 <br>
+Survival +2 * <br>
+
+<br>* <em>proficient</em><br>
+</div>
+
+<div id='reactions'><div id='sectionTitle'>REACTIONS (1 per round)</div>
+<p><strong>Opportunity Attack. </strong> When a creature leaves your reach without taking the Disengage action, you make a melee attack on them. </p>
+</div><div id='upperCentralColumn'>
+<div id='labelArmorClass'>ARMOR<br>CLASS<br>(AC)</div><div id='armorclass'>13</div>
+<div id='labelSpeed'>SPEED</div><div id='speed'>30ft</div>
+<div id='labelHitPoints'>HIT POINTS</div>
+<div id='hitpoints'>29</div>
+</div>
+<div id='labelattackactions'>ACTIONS (1 per turn)</div>
+<div id='attackactions'>
+<p><strong>Reckless Attack. </strong> Make a melee attack with advantage. Attacks against you are made with advantage for one round. </p>
+<div id='attack01'>
+<p><strong>Javelin (30ft). </strong> d20+5 to hit, d6+3 damage. </p>
+<p><strong>Heavy Weapon. </strong> d20+5 to hit, 2d6+3 damage. </p>
+<p><strong>Shove/Grapple. </strong> <em>Athletics Check.</em></p>
+</div>
+<p><strong>Dash. </strong> Move up to your speed. </p>
+<p><strong>Disengage. </strong> <em>See Opportunity Attack.</em></p>
+<p><strong>Dodge. </strong> You are attacked with disadvantage until your next turn. </p>
+<p><strong>Sense Magic. </strong> For one round, you can tell if anything you see is magical. <em>(Wild Magic)</em></p>
+</div >
+<div id='specialabilities'>
+<div id='sectionTitle'>CHARACTER INFORMATION</div>
+<p><strong>Savage Attacks.</strong> When you critically hit with a melee weapon, you can roll an extra one of the weapon's damage dice. </p>
+<p><strong>Relentless Endurance</strong> Upon taking damage, drop to 1 hit point instead of 0. You can do this once per Long Rest - O </p>
+<div id='sectionTitle'>RAGE - O O O </div>
+<p>• You take half non-magical damage. </p>
+<p>• You may enter Rage as a Bonus Action. </p>
+<p>• You have advantage on Athletics checks and Strength saving throws. </p>
+<p>• You may add 2 to weapon damage. </p>
+<p>• Rages last one minute, but end early if you fall unconcious. You must also attack or take damage each round. </p>
+<p>• When you enter rage, roll a d8 to unleash a magical effect. <em>(Wild Magic - see TCoE for effects)</em> </p>
+<div id='sectionTitle'>GRAPPLING</div>
+<p>• You may only perform Javelin attacks while grappling. </p>
+<p>• You move at half speed, and the grappled creature moves with you. </p>
+<p>• The grappled creature's speed becomes 0 </p>
+<p>• You may release the target at any time. </p>
+<div id='sectionTitle'>EQUIPMENT & TREASURE</div>
+<p>Shield, Heavy Weapon, Javelins x5, rations x10, 50ft rope </p>
+</div>
+</div>
+</div>
+</body>
+</html>

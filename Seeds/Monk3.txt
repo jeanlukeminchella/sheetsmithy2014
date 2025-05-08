@@ -1,0 +1,30 @@
+{
+    "level": 3,
+    "classAsString": "Monk",
+    "tashaContent": true,
+    "race": "dwarf",
+    "backgroundAsString":"Sailor",
+    "choices": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "showScores": true
+}

@@ -1,0 +1,30 @@
+{
+    "level": 3,
+    "classAsString": "Cleric",
+    "tashaContent": true,
+    "race": "dwarf",
+    "backgroundAsString":"Hermit",
+    "choices": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "showScores": true
+}

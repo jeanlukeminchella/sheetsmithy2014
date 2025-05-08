@@ -1,0 +1,15 @@
+{
+    "title": "Protection from Evil and Good",
+    "damage": "",
+    "rang": 0,
+    "cost": "1",
+    "duration": "10 min",
+    "conc": true,
+    "modiferIndex": -1,
+    "preSaveNormalText": "Aberrations, celestials, elementals, fey, fiends, and undead attack target with disadvantage, and cannot charm, frighten, or possess target.",
+    "postSaveNormalText": "",
+    "preSaveItalicText": "If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect",
+    "postSaveItalicText": "",
+    "castTime": "a",
+    "ritual": false
+}

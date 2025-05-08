@@ -1,0 +1,4 @@
+{
+    "title": "Divine Sense",
+    "preSaveNormalText": "Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover."
+}

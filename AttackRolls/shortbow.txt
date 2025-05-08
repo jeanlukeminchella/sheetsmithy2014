@@ -1,0 +1,6 @@
+{
+    "title": "Shortbow",
+    "addModToDamage": true,
+    "damage": "d6",
+    "rang": 60
+}

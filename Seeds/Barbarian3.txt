@@ -1,0 +1,30 @@
+{
+    "level": 3,
+    "classAsString": "Barbarian",
+    "tashaContent": true,
+    "race": "halfOrc",
+    "backgroundAsString":"Outlander",
+    "choices": [
+        null,
+        null,
+        null,
+        "bear",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "showScores": true
+}

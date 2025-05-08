@@ -1,0 +1,6 @@
+{
+    "title": "Javelin",
+    "addModToDamage": true,
+    "damage": "d6",
+    "rang": 30
+}

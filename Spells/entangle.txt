@@ -1,0 +1,8 @@
+{
+    "conc": true,
+    "title": "Entangle",
+    "cost": "1",
+    "preSaveNormalText": "20ft square of vines erupt from the ground, restraining occupants.",
+    "preSaveItalicText": "STR",
+    "postSaveItalicText": " to resist."
+}

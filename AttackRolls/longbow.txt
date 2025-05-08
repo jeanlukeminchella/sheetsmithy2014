@@ -1,0 +1,6 @@
+{
+    "title": "Longbow",
+    "addModToDamage": true,
+    "damage": "d8",
+    "rang": 150
+}

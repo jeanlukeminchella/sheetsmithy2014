@@ -1,0 +1,5 @@
+{
+    "title": "Shortsword",
+    "addModToDamage": true,
+    "damage": "d6"
+}

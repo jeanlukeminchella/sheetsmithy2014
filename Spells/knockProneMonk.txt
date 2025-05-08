@@ -1,0 +1,5 @@
+{
+    "title": "Knock Prone",
+    "preSaveNormalText": "DEX",
+    "postSaveNormalText": " to resist."
+}

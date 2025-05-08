@@ -1,0 +1,5 @@
+{
+    "title": "Quarterstaff",
+    "addModToDamage": true,
+    "damage": "d8"
+}

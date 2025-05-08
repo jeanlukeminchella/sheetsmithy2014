@@ -1,0 +1,13 @@
+{
+    "title": "Dispel Magic",
+    "damage": "",
+    "rang": 120,
+    "cost": "3",
+    "duration": "",
+    "conc": false,
+    "modiferIndex": -1,
+    "preSaveNormalText": "A spell lower than fourth level on the target ends. Make a spell attack roll to dispel higher levels - DC 10 + the spell's level.",
+    "preSaveItalicText": "",
+    "postSaveItalicText": "",
+    "castTime": "a"
+}

@@ -1,0 +1,5 @@
+{
+    "title": "Cure Wounds",
+    "cost": "1",
+    "preSaveNormalText": "Heal a target"
+}

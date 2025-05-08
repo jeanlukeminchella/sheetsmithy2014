@@ -1,0 +1,30 @@
+{
+    "level": 3,
+    "classAsString": "Rogue",
+    "tashaContent": true,
+    "race": "halfling",
+    "backgroundAsString":"Criminal",
+    "choices": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "showScores": true
+}

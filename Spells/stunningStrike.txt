@@ -1,0 +1,6 @@
+{
+    "title": "Stun",
+    "preSaveNormalText": "When you hit with a melee attack, spend a Ki to stun target until the end of your next turn.",
+    "preSaveItalicText": "CON",
+    "postSaveItalicText": " to resist."
+}

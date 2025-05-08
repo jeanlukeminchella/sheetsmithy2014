@@ -1,0 +1,5 @@
+{
+    "title": "Heavy Weapon",
+    "addModToDamage": true,
+    "damage": "2d6"
+}

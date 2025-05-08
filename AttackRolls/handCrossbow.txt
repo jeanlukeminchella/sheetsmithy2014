@@ -1,0 +1,6 @@
+{
+    "title": "Hand Crossbow",
+    "damage": "d6",
+    "addModToDamage": true,
+    "rang": 30
+}

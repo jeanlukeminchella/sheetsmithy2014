@@ -1,0 +1,154 @@
+{
+    "blank": [
+        "",
+        "&nbsp;",
+        ""
+    ],
+    "stow": [
+        "Draw/Stow Weapon.",
+        "&nbsp;",
+        "You may drop weapons at any time."
+    ],
+    "offhandPunchLevel1": [
+        "Offhand Punch.",
+        "",
+        " You must have performed a melee attack this turn."
+    ],
+    "offhandPunch": [
+        "Offhand Punch.",
+        "",
+        " You must have performed a melee attack or spent Ki this turn."
+    ],
+    "Dash": [
+        "Dash. ",
+        "Move up to your speed.",
+        ""
+    ],
+    "Hide": [
+        "Hide. ",
+        "Must be out of sight. On a success, target is unaware where you move, giving advantage on attacks. ",
+        "Stealth Check."
+    ],
+    "Dodge": [
+        "Dodge. ",
+        "You are attacked with disadvantage until your next turn. Advantage on Dex saves.",
+        ""
+    ],
+    "Disengage": [
+        "Disengage. ",
+        "",
+        "See Opportunity Attack."
+    ],
+    "Shove": [
+        "Shove/Grapple. ",
+        "",
+        "Athletics Check."
+    ],
+    "oppAttack": [
+        "Opportunity Attack. ",
+        "When a creature leaves your reach without taking the Disengage action, you make a melee attack on them.",
+        ""
+    ],
+    "senseMagicItem": [
+        "Sense Magic. ",
+        "For one round, you can tell if anything you see is magical.",
+        "(Wild Magic)"
+    ],
+    "reckless": [
+        "Reckless Attack. ",
+        "Make a melee attack with advantage. Attacks against you are made with advantage for one round.",
+        ""
+    ],
+    "extraAttackHighlighted": [
+        "Attack. ",
+        "Make two highlighted attacks.",
+        ""
+    ],
+    "shortswordOffHand": [
+        "Off-hand Shortsword. ",
+        "Make a shortsword attack.",
+        "You must have made a shortsword attack this turn."
+    ],
+    "shortswordOffHandNoMod": [
+        "Off-hand Shortsword. ",
+        "Make a shortsword attack, with only d6 base damage.",
+        "You must have made a shortsword attack this turn."
+    ],
+    "actionSurge": [
+        "Action Surge. ",
+        "Take two actions.",
+        "You must rest before doing this again. </em>O"
+    ],
+    "conc": [
+        "",
+        "",
+        "\u00a9 Requires Concentration, which may be broken upon taking damage. You may only Concentrate on one spell at a time."
+    ],
+    "uncannyDodge": [
+        "Uncanny Dodge. ",
+        "Half the damage of an incoming attack you can see.",
+        ""
+    ],
+    "useObject": [
+        "Use an Object. ",
+        "",
+        "eg. potion."
+    ],
+    "useObjectThief": [
+        "Use an Object. ",
+        "",
+        "(Thief)"
+    ],
+    "ritual": [
+        "",
+        "⌆ Some spells can be cast as a 10 minute ritual, without having to spend a spell slot.",
+        ""
+    ],
+    "magicalUnarmedStrike": [
+        "",
+        "Your unarmed strikes count as magical attacks and damage",
+        ""
+    ],
+    "lucky": [
+        "Lucky. ",
+        "Reroll 1s on your d20.",
+        ""
+    ],
+    "haflingNimbleness": [
+        "Halfling Nimbleness. ",
+        "You can move through the space of larger creatures.",
+        ""
+    ],
+    "resPoison": [
+        "",
+        "You have resistance to poison damage.",
+        ""
+    ],
+    "resFire": [
+        "",
+        "You have resistance to fire damage.",
+        ""
+    ],
+    "savageAttacks": [
+        "Savage Attacks.",
+        "When you critically hit with a melee weapon, you can roll an extra one of the weapon's damage dice.",
+        ""
+    ],
+    "naturallyStealthy": [
+        "",
+        "You can attempt to hide behind larger creatures.",
+        ""
+    ],
+    "relentlessEndurance": [
+        "Relentless Endurance",
+        "Upon taking damage, drop to 1 hit point instead of 0. You can do this once per Long Rest - O",
+        ""
+    ],
+    "maskOfWild": [
+        "Mask of the Wild",
+        "You can attempt to hide when you are lightly obscured by nature.",
+        "(Wood Elf)"
+    ]
+    
+     
+}

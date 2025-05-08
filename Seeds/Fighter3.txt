@@ -1,0 +1,30 @@
+{
+    "level": 3,
+    "classAsString": "Fighter",
+    "tashaContent": true,
+    "race": "dragonborn",
+    "backgroundAsString":"Urchin",
+    "choices": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "showScores": true
+}
