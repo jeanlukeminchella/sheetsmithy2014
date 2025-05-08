@@ -80,7 +80,7 @@ def growSeeds (seeds):
     
     folderName = getTimeAsString()
     os.mkdir(barb.sh.gf.pathToSource+"Generated/"+folderName)
-    shutil.copy(barb.sh.gf.pathToSource+"bkg01.jpg", barb.sh.gf.pathToSource+"Generated/"+folderName)
+    shutil.copy(barb.sh.gf.pathToSource+"/static/bkg01.jpg", barb.sh.gf.pathToSource+"Generated/"+folderName)
     os.chdir(barb.sh.gf.pathToSource+"Generated/"+folderName)
     
     for seed in seeds:
