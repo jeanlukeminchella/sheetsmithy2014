@@ -71,7 +71,7 @@ level = 4
 
 #seedsToGo = [rangerSeed,rogueSeed,fighterSeed,barbarianSeed,paladinSeed]
 #seedsToGo = [cl]
-seedsToGo = os.listdir("./Seeds")
+seedsToGo = os.listdir(barb.sh.gf.pathToSource+"Seeds")
 
 fileExtension = ".txt"
 
@@ -79,9 +79,9 @@ def growSeeds (seeds):
     
     
     folderName = getTimeAsString()
-    os.mkdir("./Generated/"+folderName)
-    shutil.copy("./bkg01.jpg", "./Generated/"+folderName)
-    os.chdir("./Generated/"+folderName)
+    os.mkdir(barb.sh.gf.pathToSource+"Generated/"+folderName)
+    shutil.copy(barb.sh.gf.pathToSource+"bkg01.jpg", barb.sh.gf.pathToSource+"Generated/"+folderName)
+    os.chdir(barb.sh.gf.pathToSource+"Generated/"+folderName)
     
     for seed in seeds:
         

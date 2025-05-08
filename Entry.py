@@ -84,7 +84,7 @@ class Entry():
         
         d= {}
         
-        with open("./"+self.folderName+"/"+codeName+fileExtension, 'r') as file:
+        with open(gf.pathToSource+""+self.folderName+"/"+codeName+fileExtension, 'r') as file:
             d = json.load(file)
             
         commandTuples = []
@@ -99,7 +99,7 @@ class TextEntry(Entry):
     
     def __init__(self, datum):
         self.datum=datum
-        with open("./TextEntries.txt", 'r') as file:
+        with open(gf.pathToSource+"TextEntries.txt", 'r') as file:
             self.textEntryDictionary = json.load(file)
         
     def getHTML(self,c=None):

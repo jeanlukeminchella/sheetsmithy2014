@@ -1,5 +1,10 @@
 infoBullet = ""
 
+import os 
+
+pathToSource = "/home/sheetsmithy2014/mysite/"
+if "cabinhammer" in os.getcwd():
+    pathToSource = "./"
 
 # args is the list of arguments passed in - for example if you want your attribues somewhere specific with attBoost arguments
 # default boosts is [int,int,int,int,int,int] with a different int for the places the race 'naturally' boosts, without TCoE variant.

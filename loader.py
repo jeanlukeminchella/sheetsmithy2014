@@ -24,7 +24,7 @@ spell = {
 
 spellName = "tieflingRebuke.txt"
 
-#encode_to_file(spell,"./Spells/"+spellName)
+#encode_to_file(spell,gf.pathToSource+"Spells/"+spellName)
 
 attack = {
     "title":"Dagger",
@@ -43,7 +43,7 @@ attack = {
     "note":""
 }
 attackName = "dagger.txt"
-#encode_to_file(attack,"./AttackRolls/"+attackName)
+#encode_to_file(attack,gf.pathToSource+"AttackRolls/"+attackName)
 
 modifiers = [3,2,2,0,0,0]
 profs = [1,2,3]
@@ -75,7 +75,7 @@ for l in levelsToIterate:
         seedName = cl+str(l)+".txt"
     
     
-        encode_to_file(seed,"./Seeds/"+seedName)
+        encode_to_file(seed,gf.pathToSource+"Seeds/"+seedName)
 
 armorsToEncode = [["Studded Leather",13,True,False,"Light",False],["Leather",12,True,False,"Light",False], ["Chain Shirt",13,True,False,"Medium",True], ["Breastplate",14,True,False,"Medium",True], ["Hide",12,True,False,"Medium",True], ["Half Plate",15,True,True,"Medium",True],["Scale Mail",14,True,True,"Medium",True], ["Chain Mail",16,False,True,"Heavy",False], ["Splint",17,False,True,"Heavy",False], ["Ring Mail",14,False,True,"Heavy",False], ["Plate",18,False,True,"Heavy",False]]
 armorsToEncode = []
@@ -91,7 +91,7 @@ for a in armorsToEncode:
         "maxTwo":a[5]
     }
     
-    encode_to_file(armor,"./Armors/"+a[0]+".txt")
+    encode_to_file(armor,gf.pathToSource+"Armors/"+a[0]+".txt")
     
 heal = {
     "title":"Healing Word",
@@ -109,5 +109,5 @@ heal = {
 
 healName = "healingWord.txt"
 
-#encode_to_file(heal,"./Heals/"+healName)
+#encode_to_file(heal,gf.pathToSource+"Heals/"+healName)
 

@@ -574,6 +574,6 @@ def getHp(hitDie,level, conMod,hpBoost=0):
 
 
 def writeStyle():
-    f = open("./styleText.html", "r")
+    f = open(gf.pathToSource+"styleText.html", "r")
     return f.read()
 
