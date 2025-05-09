@@ -23,7 +23,7 @@ class Armor:
         
         d = {}
         
-        with open(gf.pathToSource+"Armors/"+armorName+e.fileExtension, 'r') as file:
+        with open(e.gf.pathToSource+"Armors/"+armorName+e.fileExtension, 'r') as file:
             d = json.load(file)
         
         for k in d.keys():
